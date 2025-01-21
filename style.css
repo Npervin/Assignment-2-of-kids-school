@@ -357,6 +357,9 @@
   height: 25px;
   gap: 5px;
 }
+/* Media Query for Header Section */
+@media screen and(max-width:576px) {
+}
 /* Media Query for Responsiveness for Standard Curriculum Section */
 @media screen and (max-width: 576px) {
   .standard-container {
