@@ -358,8 +358,22 @@
   gap: 5px;
 }
 /* Media Query for Header Section */
-@media screen and(max-width:576px) {
-  .nav-item li {
+@media screen and (max-width: 576px) {
+  .nav-item {
+    display: none;
+    flex-direction: column;
+  }
+  .nav-items h3,
+  button,
+  marquee {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
 
