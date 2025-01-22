@@ -367,9 +367,9 @@
   button,
   marquee {
     display: none;
-  }
-  .menu-icon {
-    display: block;
+    .menu-icon {
+      display: block;
+    }
   }
   .banner-section {
     flex-direction: column-reverse;
